@@ -1,10 +1,10 @@
 #include "main.h"
 
 /**
- * print_chessboard - prints chessboard.
+ * print_chessboard - prints the chessboard
+ * @a: pointer to pieces to print
  *
- * @a: rows.
- * Return: nothing.
+ * Return: void
  */
 void print_chessboard(char (*a)[8])
 {
